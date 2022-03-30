@@ -44,18 +44,18 @@ async def start(_, m: Message):
                         "➕ Add me to your Group ➕", url=f"https://t.me/{Sophia.BOT_USERNAME}?startgroup=true")
                 ], [
                     InlineKeyboardButton(
-                        "Source Code 💾", url=f"https://github.com/dihanofficial/videoplayerbot")
+                        "Source Code 💾", url=f"https://t.me/SonSahip")
                 ], [
                     InlineKeyboardButton(
-                        "Follow Me ", url=f"https://github.com/dihanofficial/")
+                        "Follow Me ", url=f"https://t.me/SonSahip")
                 ], [
                     InlineKeyboardButton(
-                        "💬 Support Group", url="https://t.me/SophiaSupport_Official"),
+                        "💬 Support Group", url="https://t.me/SahipMuzikBotSupport"),
                     InlineKeyboardButton(
-                        "📣 Updates Channel", url="https://t.me/SophiaUpdates")
+                        "📣 Updates Channel", url="https://t.me/SahipMuzikBotCHANNEL")
                 ], [
                     InlineKeyboardButton(
-                        "👩 Developer", url="https://t.me/dihanofficial")
+                        "👩 Developer", url="https://t.me/SonSahip")
                 ], [
                     InlineKeyboardButton(
                         "📚 All Command List", callback_data="cblist")
@@ -66,10 +66,10 @@ async def start(_, m: Message):
                            reply_markup=InlineKeyboardMarkup(
                                [[
                                    InlineKeyboardButton(
-                                       "Support Group", url="https://t.me/SophiaSupport_Official")
+                                       "Support Group", url="https://t.me/SahipMuzikBotSupport")
                                ], [
                                    InlineKeyboardButton(
-                                       "Updates Channel", url="https://t.me/SophiaUpdates")
+                                       "Updates Channel", url="https://t.me/SahipMuzikBotCHANNEL")
                                ], [
                                    InlineKeyboardButton(
                                        "🌐 Search Youtube", switch_inline_query='')
